@@ -1,0 +1,241 @@
+2022-02-12 17:00:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 11620 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:00:14 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:00:14 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterKafkaStreamRunner' defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'twitter4j.TwitterStream' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2022-02-12 17:00:14 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-12 17:00:14 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner required a bean of type 'twitter4j.TwitterStream' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'twitter4j.TwitterStream' in your configuration.
+
+2022-02-12 17:01:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 9936 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:01:05 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:01:06 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterKafkaStreamRunner' defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'twitter4j.TwitterStream' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-02-12 17:01:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-12 17:01:06 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner required a bean of type 'twitter4j.TwitterStream' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'twitter4j.TwitterStream' in your configuration.
+
+2022-02-12 17:01:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 10608 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:01:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:02:00 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterKafkaStreamRunner' defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'twitter4j.TwitterStream' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-02-12 17:02:00 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-12 17:02:00 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner required a bean of type 'twitter4j.TwitterStream' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'twitter4j.TwitterStream' in your configuration.
+
+2022-02-12 17:02:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 17960 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:02:09 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:02:09 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterKafkaStreamRunner' defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'twitter4j.TwitterStream' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-02-12 17:02:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-12 17:02:09 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner required a bean of type 'twitter4j.TwitterStream' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'twitter4j.TwitterStream' in your configuration.
+
+2022-02-12 17:18:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 12756 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:18:23 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:18:24 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterKafkaStreamRunner' defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\runner\impl\TwitterKafkaStreamRunner.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'twitter4j.TwitterStream' available: expected single matching bean but found 2: twitterStreamConfig,twitterStreamBean
+2022-02-12 17:18:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-02-12 17:18:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.microservices.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner required a single bean, but 2 were found:
+	- twitterStreamConfig: defined in file [C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main\com\microservices\demo\twitter\to\kafka\service\config\TwitterStreamConfig.class]
+	- twitterStreamBean: defined by method 'twitterStreamBean' in class path resource [com/microservices/demo/twitter/to/kafka/service/config/AppConfig.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2022-02-12 17:18:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Starting TwitterToKafkaServiceApplicationKt using Java 11.0.11 on DESKTOP-3J5SO4P with PID 14980 (C:\kotlin-microservices-study\microservices-demo\twitter-to-kafka-service\build\classes\kotlin\main started by Luiz in C:\kotlin-microservices-study\microservices-demo)
+2022-02-12 17:18:58 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - No active profile set, falling back to default profiles: default
+2022-02-12 17:18:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationKt - Started TwitterToKafkaServiceApplicationKt in 1.1 seconds (JVM running for 1.526)
+2022-02-12 17:18:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2022-02-12 17:18:59 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, ElasticSearch]
+2022-02-12 17:18:59 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords: [[Java, Microservices, Spring, Kafka, ElasticSearch]]
+2022-02-12 17:18:59 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2022-02-12 17:19:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2022-02-12 17:19:00 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2022-02-12 17:19:00 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @RobertStock6: I can distinctly remember a big team meeting where the minor league players got reamed because someone “stole” a jar of p…
+2022-02-12 17:19:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @hanavbara: spring day 🌸❄️  #5YearsWithSpringDay https://t.co/Jn2sGlOlFe
+2022-02-12 17:19:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @tsubiclub: tsubi club direct as of 2/12/22:
+
+groundworks estimated completion late spring 2022
+
+single 2 is at 50%
+(video in early pre-…
+2022-02-12 17:19:01 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: HAPPY BIRTHDAY SPRING DAY #5YearsWithSpringDay by @BTS_twt Never forget 💜💜💜 https://t.co/MmNnjLJuJX
+2022-02-12 17:19:02 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @TheoFleury14: An epic takedown at the border. The answer is no no no no. Goodbye
+2022-02-12 17:19:03 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Spring day cumple 5 años omg 😭💗
+2022-02-12 17:19:04 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @dsell_11: We don’t have a choice whether we want to come to ST or not. To force us to be here on just per diem every week isn’t fair. I…
+2022-02-12 17:19:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Solo le 21 ed io mi vado a guardare la live di spring.
+2022-02-12 17:19:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Found this autographed ticket treasure when spring cleaning.  This was the first time me and miss alice saw you @EllesBailey and @KT_Hurt13 play live..such an awesome night, superb voices and sound, pre covid. You were so lovely 😘😘 #goodtimes #livemusic  #ellesbailey #katyhurt https://t.co/zyJ6NTCTjg
+2022-02-12 17:19:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @JalalAK_jojo: Incredible spring hike in Wadi Al-Bira (Tabor Valley), between Bisan & Nazareth. https://t.co/dqpu1PoHVY
+2022-02-12 17:19:06 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @A_McIntyre50: That’s $775 more than MiLB guys have made in the past 5 months
+2022-02-12 17:19:06 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @fraveris: Bruno Liljefors
+
+The Messengers of Spring https://t.co/5xS31ViFfG
+2022-02-12 17:19:06 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Spring day
+I vote #Butter for the #BestMusicVideo at the 2022 #iHeartAwards !
+2022-02-12 17:19:06 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Prepare for the Spring and Summer!!       
+         
+Katchy Indoor Insect Traps, as low as $25!! (retail $50!)
+*40% off Coupon on page
+  
+https://t.co/P6MgkkTPai https://t.co/mSleJWTSgC
+2022-02-12 17:19:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Manfred said no delay in spring training games and yet here we are two weeks away…
+2022-02-12 17:19:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @DlS_3ASE: spring day was released 5 years ago. it never left the melon top 100 ever since 😭
+2022-02-12 17:19:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @KrisMichelleZ Wonderful spring future prospects🥰
+Thank you for getting in the mood 🤗🌸🌳🌱🌷💙💛
+2022-02-12 17:19:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: We'll take care of your entire spring online coursework for you:
+Coursework
+Paper pay
+Biology
+English
+Essay pay
+Maths
+Stats
+Essay due.
+Chem...
+Online class
+History
+Nursing
+Econometrics
+Homework
+Law ...
+Research paper
+Assignment
+Dm asap
+2022-02-12 17:19:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @ezralevant: The Trucker Spring. https://t.co/eEQgRlEz2k
+2022-02-12 17:19:08 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @hanavbara: spring day 🌸❄️  #5YearsWithSpringDay https://t.co/Jn2sGlOlFe
+2022-02-12 17:19:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @ammisays: spring day’s “if you spend just a few sleepless nights, i’ll come to meet you, i’ll come to pick you up / please stay there a…
+2022-02-12 17:19:09 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @GingerEnergy111: You know what is cool about those people with unacceptable views?  They are willing to brave cold miserable weather to…
+2022-02-12 17:19:10 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: I’m so sick of this weather, there is some weird romantic notion around winter. In countries with regular snowfall maybe, not in the UK. Damp, dark and miserable. 
+
+Roll on spring.
+2022-02-12 17:19:11 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @btsunike08: 🗂 [ Dato Curioso ]
+
+— El significado detrás de "Spring day"
+
+- Han pasado 4 años desde que se lanzó esta canción que siempr…
+2022-02-12 17:19:11 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @jkenney Best spring ever. You just don’t get it. Counting until April 9.
+2022-02-12 17:19:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @SamuelAdamsBeer: #NOBLEPILS. Out of the brewery vault and into 4-pks, at the Boston Taproom. 
+This Golden Pilsner uses all 5 varieties…
+2022-02-12 17:19:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @buperac: Oh do I love this! 🇨🇦
+2022-02-12 17:19:14 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @ksjbear: Vmin slow dance on spring day
+#5YearsWithSpringDay https://t.co/yx69jTnJGt
+2022-02-12 17:19:14 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @JesseRogersESPN: FYI, I'm not sure there is going to be some big declaration by Manfred that spring is delayed. We're in a lockout unti…
+2022-02-12 17:19:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @Tia_Afoa We’ll be out there soon as spring hits’ lol
+2022-02-12 17:19:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: فريقي ارجل فريق..ما عادة في البطولة الكبيرة يستهبل اخر كم سنة..وربي قاهرني..يلا يارب السنة ذي له يارب يارب يارب 😭💙
+✨
+الصورة Sus تحس اني فان K-pop 😂😂😂 https://t.co/BVBAJdlmCO
+2022-02-12 17:19:16 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @Dolapo_Alfie SPRING BREAK IN MIAMI IS ALMOST HERE
+
+LOOKING FOR THE BIGGEST PARTIES, POOL PARTIES, CONCERTS, MANSION PARTIES & MORE ?
+
+https://t.co/XPiBmw5AU9 🎟
+
+RSVP FOR YOUR WEEK FOR FREE TO GET ENTRY TO ALL EVENTS !!!!! https://t.co/aRdhaUQqln
+2022-02-12 17:19:18 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Congratulations to the unequivocal QUEEN of BTS discography 👑 
+'SPRING DAY' on your 5th. The only song in melon history to stay in top 50 for 5 years! #5YearsWithSpringDay
+2022-02-12 17:19:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @BNightengale: MLB presented a 130-page proposal, raising the minimum salary to $630,000 and the CBT to $222 million in 2026. The union'…
+2022-02-12 17:19:21 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @charts_k: .@BTS_twt's 'You Never Walk Alone' and its title track "Spring Day" was released 5 years ago today (2017), a song that has st…
+2022-02-12 17:19:22 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: .
+2022-02-12 17:19:22 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @hanavbara: spring day 🌸❄️  #5YearsWithSpringDay https://t.co/Jn2sGlOlFe
+2022-02-12 17:19:22 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: happy existential dread day! (the warm day in nyc in february when everyone acts like it’s spring)
+2022-02-12 17:19:22 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @CoyotesRising: 🤔
+We had 10 college coaches visit with us about our kids this spring. 
+
+Top Two Questions:
+1. What’s his grades like
+2.…
+2022-02-12 17:19:23 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @rexstjohn: Thanks to all the amazing people in #refi looking forward to an interesting spring 
+
+@sellieyoung 
+@erde_kette 
+@tmoindustri…
+2022-02-12 17:19:23 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @marjoryyx3: I came to Vegas with winter clothes, thinking it was gonna be cold and it’s spring out here 🥴
+2022-02-12 17:19:23 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Rowing Boats stacked up ready for hiring out in the spring at Hammertons Ferry in Twickenham London Uk
+#rowboats
+#riverthames
+#twickenham
+#hammertonsferry https://t.co/MiDIqHVrT9
+2022-02-12 17:19:23 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @LorneHerring: @LGretzky Doug's problem is those occupiers are his voters and Doug has am election to win this spring. Poor Doug, caught…
+2022-02-12 17:19:24 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: كنت فخورهه لان اغلب اغانيهم عن قضايا بلدهم ، دايم اشوف انجازاتهم افتخر كونى ارمى ، ودايما ببالى سؤال ؛ لو ما كنت اعرفهم كيف كانت بتكون حياتى ؟؟ معرفتى ب بانجتان كانت بعد فترة صعبه جدا نفسياً ، بانجتان سبب سعادتى بالحياة وان نفسيتى حالياً مرتاحه وشخصيتى اقوى !!
+2022-02-12 17:19:24 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @RealAndreDumais Lol. I will forever call it the cake putter inner carrying thing. Here’s a hint. Say nothing about the bike. In the spring when you go biking, keep insisting it’s the one you’ve always had. Convince her. Go all in.
+2022-02-12 17:19:24 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @narliethinker: how i sleep knowing the heartstopper show is coming out THIS SPRING. https://t.co/xMHVrgOjHB
+2022-02-12 17:19:25 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @oftenatthepool Last spring😊 good evening and thank you again Sylvia!🙏🙋🏻
+2022-02-12 17:19:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Minor league spring training starts in 22 days
+2022-02-12 17:19:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @DOBrienATL: This morning, this still sounds as cold-hearted as it did yesterday.
+2022-02-12 17:19:27 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: @CrazyGoodKids @ElectionWiz Spring loaded center punch
+2022-02-12 17:19:27 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @fiveboos: some new kitty phone grips coming in the spring update~ https://t.co/QE7geheQqY
+2022-02-12 17:19:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: RT @BlueSkies_Chin: Happy 5 years my beloved, Spring day... 🌸🍃#5YearsWithSpringDay #btsfanart https://t.co/Af1ZprfZCI
+2022-02-12 17:19:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: 17.40. More than 10 hours of daylight now, Spring's almost here.
+
+Jane KWT
+KWT supported by https://t.co/lWeqSAeCpN
+#iosflowers #tootstaxi
+#KeepitChaos #Islands FM  #scilly  #kernow #scillytic #visitislesofscilly #cornwall #ScillyStaycation @IOSTravelupdate @IOSTravel https://t.co/0Espi31Axj
+2022-02-12 17:19:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Isaiah 43:19 NASB1995—“Behold, I will do something new, Now it will spring forth; Will you not…  https://t.co/Fjga1sjJEP via @biblegateway
+2022-02-12 17:19:30 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text: Hey @JustinTrudeau We are shakin' in our boots. As for the pussies in the #OttawaOccupied camp, Shouldn't you be whining about this?
+2022-02-12 17:19:30 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Shutting twitter stream down
+2022-02-12 17:19:30 [SpringApplicationShutdownHook] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Destroy method on bean with name 'twitterKafkaStreamRunner' threw an exception: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+2022-02-12 17:19:30 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Custom destroy method 'shutdown' on bean with name 'twitterStreamBean' threw an exception: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
